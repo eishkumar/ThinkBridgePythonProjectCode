@@ -1,0 +1,25 @@
+--->LinkedIn_Extractor.py is the module used for generating the data for the companies with linkedIn Url And employee Count
+   
+--->Run_csv file is the child file where we are making use of module LinkedIn_Extractor
+    and passing the csv file to the module which in return modifies the data of the csv with the all the urls and 
+    employee count.
+
+--->companiesdata.csv file has the company names 
+   1)Enter the names for which you need the count under the "Company" Column 
+
+Copy the below three files in the same path
+1.companiesdata.csv
+2.LinkedIn_Extractor.py
+3.Run_csv.py
+
+packages:
+playwright - python -m playwright install
+pandas -pip install pandas
+
+-Once you enter the proper data under the Company coulumn save the file
+-Run the Run_csv.py file.
+-it will ask for username and password for the linked in enter the proper details
+-After adding the details the output will be generated after and will be saved in the same 
+ companiesdata.csv file which we have
+-Open the "companiesdata.csv" and see if the proper information is saved
+
